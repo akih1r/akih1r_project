@@ -1,0 +1,5 @@
+API_KEY = "AIzaSyDogoo-DjJv0PIzy2bOvNEpg2S5vsMqbpg"
+genai.configure(api_key=API_KEY)
+MODEL = genai.GenerativeModel("gemini-2.5-flash")
+
+git init; git add AI_Chat_app.py; git commit -m "first commit"; git branch -M main; git remote add origin https://github.com/akihiro/caluclator-app.git; git push -u origin main
